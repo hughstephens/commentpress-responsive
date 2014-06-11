@@ -119,7 +119,7 @@ if ( is_object( $commentpress_core ) ) {
 		</ol>
 
 		<div class="reply_to_para" id="reply_to_para-">
-		<p><a class="reply_to_para" href="<?php the_permalink() ?>?replytopara#respond" onclick="return addComment.moveFormToPara( '', '', '1' )">Leave a comment on the whole page</a></p>
+		<p><a class="reply_to_para" href="<?php the_permalink() ?>?replytopara#respond" onclick="return addComment.moveFormToPara( '', '', '1' )">Leave a comment about the whole page</a></p>
 		</div>
 		
 	</div><!-- /paragraph_wrapper -->
