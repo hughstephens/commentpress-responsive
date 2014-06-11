@@ -633,12 +633,9 @@ ul#sidebar_tabs li a.active-tab {
 h3.activity_heading:hover, .comments_container>h3:hover {
     background-color: #b4b4b4;
 }
-.comments_container>h3.nocomments:hover {
-    background-color: #bdbdbd;
-}
 h3.nocomments {
 	background-color:white;
-	font-size: 4rem;
+	font-size: 1.5rem;
     color: #222;
 }
 .comments_container>h3>span, .comments_container>h3 a {

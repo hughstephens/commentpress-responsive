@@ -23,7 +23,7 @@ NOTES
 
 
 
-<?php if ('open' != $post->comment_status) : ?>
+<?php if (!comments_open()) : ?>
 
 	<!-- comments are closed. -->
 	<h3 class="nocomments comments-closed"><span>Comments are closed for this page</span></h3>
@@ -90,7 +90,7 @@ NOTES
 
 
 
-	<?php if ('open' == $post->comment_status) : ?>
+	<?php if (comments_open()) : ?>
 
 		<!-- comments are open, but there are no comments. -->
 		<h3 class="nocomments">No general comments yet</h3>

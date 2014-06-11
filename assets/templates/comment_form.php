@@ -29,7 +29,7 @@ global $post;
 
 <!-- comment_form.php -->
 
-<?php if ('open' == $post->comment_status) : ?>
+<?php if ('open' == $post->comment_status || comments_open()) : ?>
 
 
 
