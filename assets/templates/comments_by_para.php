@@ -37,7 +37,7 @@ if (!empty($_SERVER['SCRIPT_FILENAME']) && 'comments_by_para.php' == basename($_
 <?php if ('closed' == $post->comment_status) : ?>
 
 	<!-- comments are closed. -->
-	<h3 class="nocomments comments-closed"><span>Comments are closed</span></h3>
+	<h3 class="nocomments comments-closed"><span>Comments are closed for this page</span></h3>
 
 <?php endif; ?>
 

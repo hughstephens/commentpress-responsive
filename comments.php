@@ -95,7 +95,7 @@ if ( is_object( $commentpress_core ) ) {
 		'<span>%</span> comments'
 	); 
 	
-	?> on the whole page</span></h3>
+	?> about the whole page</span></h3>
 
 
 
@@ -133,12 +133,12 @@ if ( is_object( $commentpress_core ) ) {
 	<?php if ('open' == $post->comment_status) : ?>
 
 		<!-- comments are open, but there are no comments. -->
-		<h3 class="nocomments"><span>No comments on the whole page</span></h3>
+		<h3 class="nocomments"><span>No comments about the whole page</span></h3>
 
 		<div class="paragraph_wrapper">
 	
 			<div class="reply_to_para" id="reply_to_para-">
-			<p><a class="reply_to_para" href="<?php the_permalink() ?>?replytopara#respond" onclick="return addComment.moveFormToPara( '', '', '1' )">Leave a comment on the whole page</a></p>
+			<p><a class="reply_to_para" href="<?php the_permalink() ?>?replytopara#respond" onclick="return addComment.moveFormToPara( '', '', '1' )">Leave a comment about the whole page</a></p>
 			</div>
 			
 		</div><!-- /paragraph_wrapper -->
@@ -147,7 +147,7 @@ if ( is_object( $commentpress_core ) ) {
 	 ?>
 
 		<!-- comments are closed. -->
-		<h3 class="nocomments comments-closed"><span>Comments are closed.</span></h3>
+		<h3 class="nocomments comments-closed"><span>Comments are closed for this page.</span></h3>
 
 	<?php endif; ?>
 
